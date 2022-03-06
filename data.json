@@ -1,9 +1,10 @@
-[ {
+[
+ {
   "Navn": "Teleférico de Montjuïc",
   "Latitude": 41.36882,
   "Longitude": 2.16304,
   "Beskrivelse": null,
-  "Billede": "https:\/\/www.google.com\/url?sa=i&url=https%3A%2F%2Fguia.barcelona.cat%2Fen%2Fdirectoris%2Fdetall%2Fteleferic-de-montjuic_92086009153.html&psig=AOvVaw0IMChLnWb5xfX6GPLDkhcc&ust=1646676539795000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLC0saWKsvYCFQAAAAAdAAAAABBH",
+  "Billede": "https:\/\/estatics-nasia.dtibcn.cat\/nasia-pro\/media\/2017%2C10%2C02145218%2Cel-teleferic-de-montjuic_2-760x428.jpg",
   "åbner": "10:00",
   "lukker": "19:00",
   "Hjemmeside": "https:\/\/www.telefericdemontjuic.cat\/en",
@@ -17,7 +18,7 @@
   "Latitude": 41.363998,
   "Longitude": 2.167493,
   "Beskrivelse": null,
-  "Billede": "https:\/\/www.google.com\/url?sa=i&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Ffranganillo%2F15127523003&psig=AOvVaw3AXADfVcNu88y17hN3ejio&ust=1646676787255000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMiMqpqLsvYCFQAAAAAdAAAAABBG",
+  "Billede": "https:\/\/live.staticflickr.com\/7522\/15127523003_0441f54da2_h.jpg",
   "åbner": "10:00",
   "lukker": "20:00",
   "Hjemmeside": null,
