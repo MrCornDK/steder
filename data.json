@@ -34,12 +34,12 @@
   "Billede": "https:\/\/images.prismic.io\/mystique\/2cf2f4503fdf68cd04f80cb77507e132bd3f58b1_park-guell-entrance.jpg?w=1200&h=450&q=75&crop=faces&fm=pjpg&auto=compress",
   "åbner": "09:30",
   "lukker": "19:30",
-  "Hjemmeside": null,
+  "Hjemmeside": "https:\/\/parkguell.barcelona\/en",
   "Column8": null,
   "Column9": null,
   "Column10": null,
   "Column11": null,
-  "Beskrivelse": null
+  "Beskrivelse": "Er du til massere af farver og farvede sten og figure, så dette lige stedet for dig"
  },
  {
   "Navn": "Sagrada Família",
@@ -48,12 +48,12 @@
   "Billede": "https:\/\/img.static-kl.com\/images\/media\/B7EA6297-DE35-4386-8DB1EEA71F2EBD54?aspect_ratio=1:1&min_width=912",
   "åbner": "9:00",
   "lukker": "18:00",
-  "Hjemmeside": null,
+  "Hjemmeside": "https:\/\/sagradafamilia.org\/en\/",
   "Column8": null,
   "Column9": null,
   "Column10": null,
   "Column11": null,
-  "Beskrivelse": null
+  "Beskrivelse": "Kæmpe sej kirke, DU MÅ IKKE GÅ GLIP AF DET!!!"
  },
  {
   "Navn": "barcelona stadium ",
@@ -62,12 +62,12 @@
   "Billede": "https:\/\/a.cdn-hotels.com\/gdcs\/production87\/d1916\/667ef3a6-0f25-46e2-895d-d95038469305.jpg?impolicy=fcrop&w=800&h=533&q=medium",
   "åbner": "10:00",
   "lukker": "18:00",
-  "Hjemmeside": null,
+  "Hjemmeside": "https:\/\/www.fcbarcelona.com\/en\/club\/facilities\/camp-nou",
   "Column8": null,
   "Column9": null,
   "Column10": null,
   "Column11": null,
-  "Beskrivelse": null
+  "Beskrivelse": "Stor stor fodbold bane. "
  },
  {
   "Navn": "Mercat de la Boqueria",
@@ -76,12 +76,12 @@
   "Billede": "https:\/\/assets-global.website-files.com\/581110f944272e4a11871c01\/593719e5bcddaf641da440a5_Boqueria-Sign.jpg",
   "åbner": "8:00",
   "lukker": "20:30",
-  "Hjemmeside": null,
+  "Hjemmeside": "http:\/\/www.boqueria.barcelona\/home",
   "Column8": null,
   "Column9": null,
   "Column10": null,
   "Column11": null,
-  "Beskrivelse": null
+  "Beskrivelse": "Madmarked med massere af friske fødevare. Et godt sted at lede efter frokost eller snacks til aftensmad"
  },
  {
   "Navn": "Mercat Gotic",
@@ -95,7 +95,7 @@
   "Column9": null,
   "Column10": null,
   "Column11": null,
-  "Beskrivelse": null
+  "Beskrivelse": "Markets place for gameldages ting. AKA spaniens svar på lobbemarket"
  },
  {
   "Navn": "Catedral de la Santa Creu i Santa Eulàlia ",
@@ -104,12 +104,12 @@
   "Billede": "https:\/\/image.geo.de\/30145468\/t\/lm\/v4\/w1440\/r0\/-\/08-barcelona-cathedral-m-06655646-jpg--82831-.jpg",
   "åbner": "8:00",
   "lukker": "20:00",
-  "Hjemmeside": null,
+  "Hjemmeside": "https:\/\/www.barcelonaturisme.com\/wv3\/en\/page\/585\/cathedral.html",
   "Column8": null,
   "Column9": null,
   "Column10": null,
   "Column11": null,
-  "Beskrivelse": null
+  "Beskrivelse": "Endnu end kirke. Den er stor og flot."
  },
  {
   "Navn": "Santa Maria del Pi",
@@ -118,12 +118,12 @@
   "Billede": "https:\/\/www.mein-barcelona.com\/sehenswuerdigkeiten\/fotos\/santa-maria-del-pi-640.jpg",
   "åbner": "18:00",
   "lukker": "20:00",
-  "Hjemmeside": null,
+  "Hjemmeside": "https:\/\/basilicadelpi.cat\/en\/visits\/",
   "Column8": null,
   "Column9": null,
   "Column10": null,
   "Column11": null,
-  "Beskrivelse": null
+  "Beskrivelse": "En pæn kirke, det er muligt du ender med at tro på efter dette sted"
  },
  {
   "Navn": "La Rambla",
@@ -132,26 +132,26 @@
   "Billede": "https:\/\/img.static-kl.com\/images\/media\/A2B6DDF7-BEB8-4E3F-8BBED0390367C63D?aspect_ratio=1:1&min_width=912",
   "åbner": "10:00",
   "lukker": "22:00-23:00",
-  "Hjemmeside": null,
+  "Hjemmeside": "https:\/\/www.barcelona.dk\/omrader\/ramblaen-i-barcelona\/",
   "Column8": null,
   "Column9": null,
   "Column10": null,
   "Column11": null,
-  "Beskrivelse": null
+  "Beskrivelse": "En meget lang gade der går igennem barcelona. Den er flot og der er træer"
  },
  {
-  "Navn": "arc de Triomphe",
-  "Latitude": 48.873756,
-  "Longitude": 2.294946,
-  "Billede": "https:\/\/media.tacdn.com\/media\/attractions-splice-spp-674x446\/06\/71\/34\/bc.jpg",
+  "Navn": "Arc de triomf",
+  "Latitude": 41.391052,
+  "Longitude": 2.180645,
+  "Billede": "https:\/\/www.allplacestovisit.com\/upl\/places\/2019\/barcelona-arc-de-triomphe-1.jpg",
   "åbner": "10:00",
   "lukker": "22:30",
-  "Hjemmeside": null,
+  "Hjemmeside": "https:\/\/www.barcelonaturisme.com\/wv3\/en\/page\/1211\/arc-de-triomf.html",
   "Column8": null,
   "Column9": null,
   "Column10": null,
   "Column11": null,
-  "Beskrivelse": null
+  "Beskrivelse": "En tiumfbue. Den minder om den i paris."
  },
  {
   "Navn": "Museu Nacional d'Art de Catalunya",
@@ -165,35 +165,20 @@
   "Column9": null,
   "Column10": null,
   "Column11": null,
-  "Beskrivelse": null
+  "Beskrivelse": "Et kæmpe museum, enormt pæne omgivelser og pæne opstillinger. Det flot"
  },
- null,
  {
-  "Navn": null,
-  "Latitude": null,
-  "Longitude": null,
-  "Billede": "ikke skriv dem der fisker",
-  "åbner": null,
-  "lukker": null,
-  "Hjemmeside": null,
+  "Navn": "Barcelona Erotic Museum",
+  "Latitude": 41.3823,
+  "Longitude": 2.1726,
+  "Billede": null,
+  "åbner": "12:00",
+  "lukker": "22:00",
+  "Hjemmeside": "http:\/\/www.erotica-museum.com\/",
   "Column8": null,
   "Column9": null,
   "Column10": null,
   "Column11": null,
-  "Beskrivelse": null
- },
- {
-  "Navn": null,
-  "Latitude": null,
-  "Longitude": null,
-  "Billede": "længere mod højre",
-  "åbner": null,
-  "lukker": null,
-  "Hjemmeside": null,
-  "Column8": null,
-  "Column9": null,
-  "Column10": null,
-  "Column11": null,
-  "Beskrivelse": null
+  "Beskrivelse": "Til en kinky fætter, så er der et erotisk museum i Barcelona."
  }
 ]
