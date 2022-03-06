@@ -115,26 +115,14 @@
                         scale: 1
                       })
                               .setLngLat([data.Longitude, data.Latitude])
-                              .setPopup(new mapboxgl.Popup().setHTML("<h1>" + data.Navn + "</h1><img style='width: 100%; height:auto;margin: 0; ' src='" + data.Billede + "'/><p>"+ data.Beskrivelse + "/p><br/><a href='"+ data.Hjemmeside +"'>Hjemmeside</a>"))
+                              .setPopup(new mapboxgl.Popup().setHTML("<h1>" + data.Navn + "</h1><img style='width: 100%; height:auto;margin: 0; ' src='" + data.Billede + "'/><p>"+ data.Beskrivelse + "</p><br/><a href='"+ data.Hjemmeside +"'>Hjemmeside</a>"))
                               .addTo(map)
 
             }
 
           });
 
-  /* // 41.38716121944816, 2.170030350922521 Plaça de Catalunya
-  const marker1 = new mapboxgl.Marker({
-      if (){
 
-      },
-      color: 'blue',
-      scale: 1
-  })
-      .setLngLat([2.1699928482303794, 41.38741875961451])
-      .setPopup(new mapboxgl.Popup().setHTML("<h1>Plaça de Catalunya</h1><img style='width: 100%; height:auto;margin: 0; ' src='https://www.barcelonacheckin.com/img/stored_images/barcelona/mappoints/pla%C3%A7a-de-catalunya.jpg' /><p>11:00 - 22:00</p>"))
-      .addTo(map);
-
-   */
 
 </script>
 </body>
