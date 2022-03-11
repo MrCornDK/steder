@@ -7,8 +7,11 @@
   <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
   <style>
 
-
-   #main{
+    body {
+      background: black;
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+    #main{
       position: absolute;
       background: rgba(255,255,255, 0.1);
       width:  100vw;
@@ -29,25 +32,18 @@
       position: absolute;
       margin: auto;
     }
-
     
 
   </style>
 </head>
 <body>
-
+  
 <div id="main">
   <div id="mapdiv">
     <div id='map' style=''></div>
   </div>
 </div>
 
-
-
-
-
-
- <script></script>
 <script>
 
   mapboxgl.accessToken = 'pk.eyJ1IjoibXJjb3JuIiwiYSI6ImNreWExZGJlejAxMXozMHFuODJ3d2h0cWgifQ.JCipdGBBGm1BVWrPcHoGyA';
