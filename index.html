@@ -11,17 +11,8 @@
       background: black;
       overflow-x: hidden; /* Hide horizontal scrollbar */
     }
-    
-    #main{
-      position: absolute;
-      background: rgba(255,255,255, 0.1);
-      width:  100vw;
-      height: 100vh;
-      top: 0;
-      left: 0;
-      padding: 0;
 
-    }
+
     #map{
       position: absolute;
       width: 100vw ;
@@ -29,25 +20,12 @@
       top: 0;
       left: 0;
     }
-    #mapdiv{
-      position: absolute;
-      margin: auto;
-    }
+
 
   </style>
 </head>
 <body>
-<div id="main">
-  <div id="mapdiv">
-    <div id='map' style=''></div>
-  </div>
-</div>
-
-
-
-
-
-
+<div id='map' style=''></div>
 <script>
 
   mapboxgl.accessToken = 'pk.eyJ1IjoibXJjb3JuIiwiYSI6ImNreWExZGJlejAxMXozMHFuODJ3d2h0cWgifQ.JCipdGBBGm1BVWrPcHoGyA';
@@ -84,6 +62,7 @@
             }
 
           });
+
 
 
 </script>
