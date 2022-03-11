@@ -8,12 +8,26 @@
   <style>
 
 
+   #main{
+      position: absolute;
+      background: rgba(255,255,255, 0.1);
+      width:  100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      padding: 0;
+
+    }
     #map{
       position: absolute;
       width: 100vw ;
       height: 100vh;
       top: 0;
       left: 0;
+    }
+    #mapdiv{
+      position: absolute;
+      margin: auto;
     }
 
     
@@ -22,7 +36,11 @@
 </head>
 <body>
 
-<div id='map' style=''></div>
+<div id="main">
+  <div id="mapdiv">
+    <div id='map' style=''></div>
+  </div>
+</div>
 
 
 
