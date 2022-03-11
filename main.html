@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+  <style>
+
+    body {
+      background: black;
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+
+
+    #map{
+      position: absolute;
+      width: 100vw ;
+      height: 100vh;
+      top: 0;
+      left: 0;
+    }
+
+
+  </style>
+</head>
+<body>
+<div id='map' style=''></div>
+<script>
+
+  mapboxgl.accessToken = 'pk.eyJ1IjoibXJjb3JuIiwiYSI6ImNreWExZGJlejAxMXozMHFuODJ3d2h0cWgifQ.JCipdGBBGm1BVWrPcHoGyA';
+  let map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    // city council 2.171109312785277, 41.39736958980911
+    center: [2.171109312785277, 41.39736958980911],
+    zoom: 11,
+  });
+
+
+
+  let jsonurl = "https://raw.githubusercontent.com/MrCornDK/steder/main/data.json";
+  //usage:
+  let mData;
+
+
+  fetch(jsonurl)
+          .then(res => res.json())
+          .then(data => mData = data)
+          .then(() => {
+            console.log(mData)
+            for (let data of mData){
+
+                      new mapboxgl.Marker({
+                                                color: 'blue',
+                        scale: 1
+                      })
+                              .setLngLat([data.Longitude, data.Latitude])
+                              .setPopup(new mapboxgl.Popup().setHTML("<h1>" + data.Navn + "</h1><img style='width: 100%; height:auto;margin: 0; ' src='" + data.Billede + "' alt=''/> <p>"+ data.Beskrivelse + "</p><br/><a href='"+ data.Hjemmeside +"'>Hjemmeside</a>"))
+                              .addTo(map)
+
+            }
+
+          });
+
+  /* // 41.38716121944816, 2.170030350922521 Plaça de Catalunya
+  const marker1 = new mapboxgl.Marker({
+      if (){
+
+      },
+      color: 'blue',
+      scale: 1
+  })
+      .setLngLat([2.1699928482303794, 41.38741875961451])
+      .setPopup(new mapboxgl.Popup().setHTML("<h1>Plaça de Catalunya</h1><img style='width: 100%; height:auto;margin: 0; ' src='https://www.barcelonacheckin.com/img/stored_images/barcelona/mappoints/pla%C3%A7a-de-catalunya.jpg' /><p>11:00 - 22:00</p>"))
+      .addTo(map);
+
+   */
+
+</script>
+</body>
+</html>
