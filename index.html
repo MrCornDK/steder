@@ -49,33 +49,6 @@
 
 
 <script>
- /*
-  let s = document.getElementById("settings");
-  let m = document.getElementById("map");
-  function reportWindowSize() {
-    if(window.innerHeight < window.innerWidth)    {
-
-      m.style.width = "100vh";
-      m.style.height = "100vh";
-      s.style.top = "0";
-      s.style.left = "100vh";
-      s.style.height = "100vh"
-    }
-    else {
-      m.style.width = "100vw";
-      m.style.height = "100vw";
-      s.style.top = "100vw";
-      s.style.left = "0";
-      s.style.height = "100vh"
-    }
-  }
-  reportWindowSize()
-  window.onresize = reportWindowSize;
- */
-
-
-</script>
-<script>
 
   mapboxgl.accessToken = 'pk.eyJ1IjoibXJjb3JuIiwiYSI6ImNreWExZGJlejAxMXozMHFuODJ3d2h0cWgifQ.JCipdGBBGm1BVWrPcHoGyA';
   let map = new mapboxgl.Map({
@@ -105,7 +78,7 @@
                         scale: 1
                       })
                               .setLngLat([data.Longitude, data.Latitude])
-                              .setPopup(new mapboxgl.Popup().setHTML("<h1>" + data.Navn + "</h1><img style='width: 100%; height:auto;margin: 0; ' src='" + data.Billede + "' alt=''/> <p>"+ data.Beskrivelse + "/p><br/><a href='"+ data.Hjemmeside +"'>Hjemmeside</a>"))
+                              .setPopup(new mapboxgl.Popup().setHTML("<h1>" + data.Navn + "</h1><img style='width: 100%; height:auto;margin: 0; ' src='" + data.Billede + "' alt=''/> <p>"+ data.Beskrivelse + "</p><br/><a href='"+ data.Hjemmeside +"'>Hjemmeside</a>"))
                               .addTo(map)
 
             }
